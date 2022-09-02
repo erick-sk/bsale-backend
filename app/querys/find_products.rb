@@ -14,7 +14,7 @@ class FindProducts
   private
 
     def initial_scope
-      Product.all
+      Product.all.includes(:category)
     end
 
     def filter_by_query_text(scoped, query_text)
