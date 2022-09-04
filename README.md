@@ -1,24 +1,36 @@
-# README
+# bsale-backend
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The project was made with Ruby on Rails 7.<br/>
+You can visit the project live site [here](https://bsale-frontend-erick-sk.netlify.app/).
 
-Things you may want to cover:
+## Tech Stack
 
-* Ruby version
+- Ruby 3.1.2
+- Rails 7.0.3.1
 
-* System dependencies
+Gems:
 
-* Configuration
+- dotenv-rails 2.8.1
+- mysql2 0.5.4
+- rack-cors 1.1.1
+- puma 5.0
 
-* Database creation
+## Initialize Project
 
-* Database initialization
+Clone project
 
-* How to run the test suite
+```bash
+  git clone git@github.com:erick-sk/bsale-backend.git
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+Go to project directory
 
-* Deployment instructions
+```bash
+  cd bsale-backend
+```
 
-* ...
+Install dependencies
+
+```bash
+  bundle install
+```
